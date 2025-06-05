@@ -1,11 +1,11 @@
 module.exports = {
-  title: "Eleventy Academic Blog Template",
-  url: "https://example.com/",
+  title: "nibir's math journal",
+  url: "https://math.nibirsan.org/",
   language: "en",
-  description: "My publications in web format",
+  description: "hey! I love math!",
   author: {
-    name: "John Doe",
-    email: "johndoe@example.com",
-    url: "https://example.com/",
+    name: "Nibir Sankar",
+    email: "nibir@nibisan.org",
+    url: "https://nibirsan.org/",
   },
 };

@@ -8,7 +8,7 @@
           <a class="site-title" href="/">
             {{ metadata.title }}
           </a>
-          {% include "nav.njk" %}
+	  {% include "nav.njk" %}
           <div class="controls">
             <details>
               <summary>Controls</summary>
@@ -22,7 +22,7 @@
         </div>
       </aside>
       <main>
-        {% include "breadcrumbs.njk" %}
+	      <!-- {% include "breadcrumbs.njk" %} -->
         {{ content | safe }}
       </main>
     </div>
@@ -32,4 +32,5 @@
   <script>
   {{ js | jsmin | safe }}
   </script>
+  <script src="https://cdn.jsdelivr.net/gh/ncase/nutshell/nutshell.js"></script>
 </html>
