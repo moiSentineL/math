@@ -13,6 +13,7 @@ const CleanCSS = require("clean-css");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/styles");
+  eleventyConfig.addPassthroughCopy("CNAME");
   eleventyConfig.addPassthroughCopy("./src/assets");
   eleventyConfig.addPassthroughCopy("./src/scripts");
 
