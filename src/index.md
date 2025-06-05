@@ -10,6 +10,11 @@ $$
 \text{Here we go again.}
 $$
 
+### Current books:
+- _"The Art and Craft of Problem Solving"_ - Paul Zeitz
+
+---
+
 Visit my website at [nibirsan.org](https://nibirsan.org)
 
 Cloned from this [template](https://github.com/CondensedMilk7/eleventy-academic-template).
