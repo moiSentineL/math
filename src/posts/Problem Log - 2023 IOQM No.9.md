@@ -6,7 +6,6 @@ tags:
 date: 2025-06-04
 excerpt: classic casework.
 ---
-## Problem Log - 2025-06-04
 - Topic: Casework, NT
 - [Source:: [2023 IOQM #9](https://artofproblemsolving.com/wiki/index.php/2023_IOQM/Problem_9)]
 - [Time Taken:: 30m]
@@ -52,12 +51,12 @@ Again, $\because abc$ should not be divisible by square of any prime, we need to
 
 So, the set $B$ becomes:
 
-uu$$
+$$
 \begin{lgathered}
 \{ (2, 1, 15), (5, 1, 6), (3, 1, 10) \}
 \end{lgathered}
 $$
 
-and $\boxed{ n(B) = 3 }$
+and $\boxed{ n(B) = 3 }$.
 
 So, total possibilities = $n(A) + n(B) = 14 + 3 = \boxed{ 17 }$
