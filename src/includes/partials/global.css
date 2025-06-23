@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/latin-modern-roman');
+
 :root {
   --white: #fafafa;
   --black: #191919;
@@ -22,6 +24,10 @@
   }
 }
 
+html {
+  font-family: "LMRoman10", serif;
+}
+
 body {
   --clr-background: var(--white);
   --clr-text: var(--black);
@@ -31,7 +37,7 @@ body {
 
   background: var(--clr-background);
   color: var(--clr-text);
-  font-family: var(--ff-current);
+  font-family: "LMRoman10", serif;
 
   padding: 12px;
   line-height: 1.5rem;

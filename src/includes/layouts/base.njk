@@ -11,9 +11,6 @@
 	  {% include "nav.njk" %}
           <div class="controls">
             <details>
-              <summary>Controls</summary>
-              {% include "theme-switch.njk" %}
-              {% include "font-select.njk" %}
               <div>
                 <button onclick="print()">Print this page</button>
               </div>
@@ -28,9 +25,5 @@
     </div>
     {% include "footer.njk" %}
   </body>
-  {% set js %} {% include "global.js" %} {% endset %}
-  <script>
-  {{ js | jsmin | safe }}
-  </script>
   <script src="https://cdn.jsdelivr.net/gh/ncase/nutshell/nutshell.js"></script>
 </html>
