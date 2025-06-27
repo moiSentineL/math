@@ -1,5 +1,5 @@
 ---
-title: Proving $2^n > n^3$ for all $n > 9$
+title: Proving 2^n > n^3 for all n > 9 (WRONG)
 date: 2025-06-26
 tags:
   - number-theory
